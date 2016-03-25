@@ -1,0 +1,9 @@
+#include "namespaces.h"
+
+using namespaces mycode;
+
+int main(int argc, char** argv){
+
+	foo(); //implies mycode:: foo();
+
+}

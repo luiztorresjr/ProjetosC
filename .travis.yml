@@ -1,6 +1,7 @@
-install: make get-deps
-./configure && make && make test
-language: c
+language: cpp
+sudo: required
+dist: trusty
 compiler:
-  - clang
-  - gcc
+- clang
+os:
+- linux
